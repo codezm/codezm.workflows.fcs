@@ -1,7 +1,7 @@
 Alfred-codezm-workflows-ssh
 ===========================
 
-!["Alfred-codezm-workflows-ssh Demo"][demo]
+!["Alfred-codezm-workflows-ssh Demo"](demo.gif)
 
 下载
 ----
