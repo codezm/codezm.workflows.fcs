@@ -5,7 +5,7 @@ Alfred-codezm-workflows-ssh
 
 下载
 ----
-[点击下载](https://github.com/codezm/codezm.workflows.ssh/releases/download/v1.0.0/Alfred-codezm-workflows-ssh.alfredworkflow)
+[点击下载](https://github.com/codezm/codezm.workflows.ssh/releases/download/v2.0.0/Alfred-codezm-workflows-ssh.alfredworkflow)
 
 配置
 ----

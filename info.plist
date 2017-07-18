@@ -149,7 +149,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>SSH</string>
+	<string>SSH v2.0.0</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -380,7 +380,21 @@ echo $query | sed 's/#%/ /g' | cut -d "," -f5</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>本插件仅对 ~/.ssh/config 文件进行解析处理。
+
+请确保格式按照以下配置方式进行编写:
+```
+# This is virtual machine configuration.
+Host docker-vm
+    HostName 192.168.99.100 
+  IdentityFile ~/.ssh/docker/id_rsa
+  Port 10022
+    User docker
+    #Password 1234
+    #DB dbusername:dbpassword
+```
+
+若设置 #Password 选项，则键入 `Enter` 后其值将放入黏贴板并打开默认`Terminal`进行连接。</string>
 	<key>uidata</key>
 	<dict>
 		<key>04D09EC2-0B3C-4F24-9DA9-E7DA38788DC1</key>
@@ -462,8 +476,8 @@ echo $query | sed 's/#%/ /g' | cut -d "," -f5</string>
 		<string>#Password</string>
 	</dict>
 	<key>version</key>
-	<string></string>
+	<string>2.0.0</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/codezm/codezm.workflows.ssh</string>
 </dict>
 </plist>

@@ -38,8 +38,8 @@ class Workflows {
 			$this->bundle = $bundleid;
 		endif;
 
-		$this->cache = $this->home. "/Library/Caches/com.runningwithcrayons.Alfred-2/Workflow Data/".$this->bundle;
-		$this->data  = $this->home. "/Library/Application Support/Alfred 2/Workflow Data/".$this->bundle;
+		$this->cache = $this->home. "/Library/Caches/com.runningwithcrayons.Alfred-3/Workflow Data/".$this->bundle;
+		$this->data  = $this->home. "/Library/Application Support/Alfred 3/Workflow Data/".$this->bundle;
 
 		if ( !file_exists( $this->cache ) ):
 			exec("mkdir '".$this->cache."'");
@@ -403,7 +403,7 @@ class Workflows {
 	* @return false if the file cannot be found, the file data if found. If the file
 	*			format is json encoded, then a json object is returned.
 	*/
-	public function read( $a )
+	public function read( $a, $array = true )
 	{
 		if ( file_exists( $a ) ):
 			$a = $this->path."/".$a;
@@ -417,7 +417,7 @@ class Workflows {
 
 		$out = file_get_contents( $a );
 		if ( !is_null( json_decode( $out ) ) ):
-			$out = json_decode( $out );
+			$out = json_decode( $out, $array );
 		endif;
 
 		return $out;
