@@ -16,6 +16,8 @@ Alfred-codezm-workflows-ssh
 # This is virtual machine configuration.
 Host docker-vm
     HostName 192.168.99.100 
+    IdentityFile ~/.ssh/docker/id_rsa
+    Port 10022
     User docker
     #Password 1234
     #DB dbusername:dbpassword
