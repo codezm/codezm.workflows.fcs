@@ -1,0 +1,33 @@
+#!/usr/bin/expect
+set host  [lindex $argv 0]
+set user  [lindex $argv 1]
+set passwd  [lindex $argv 2]
+set timeout 30
+
+spawn ssh $user@$host
+
+expect {
+    "yes/no" { 
+        send "yes\r"
+    }
+    "password:" { 
+        send "$passwd\r" 
+    }
+}
+
+if {$argc > 3} {
+    set passwd2  [lindex $argv 3]
+    send "$passwd2 \r"
+    expect {
+        "*$*" {
+            send "su \r"
+            expect {
+                "*：" {
+                    send "$passwd2\r"
+                }
+            }
+        }
+    }
+}
+
+interact

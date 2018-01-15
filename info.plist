@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>codezm.workflows.ssh</string>
+	<string>alfred-codezm-workflows-ssh-auto-login</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>04D09EC2-0B3C-4F24-9DA9-E7DA38788DC1</key>
+		<key>339199DD-38CC-4316-92CB-CD17BD74C767</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>31CAACEE-FAF4-4476-A6B4-3369781A84B0</string>
+				<string>F73BBBCF-8213-4661-8C0B-C242F001AD62</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -21,11 +21,24 @@
 				<false/>
 			</dict>
 		</array>
-		<key>0EA74EBE-AD4A-4317-A44E-E094EE7DD3AA</key>
+		<key>43FB7215-3D11-4FFC-9626-D034A7F9B572</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>90C337A0-CB97-464C-B1B7-E267751512D8</string>
+				<string>339199DD-38CC-4316-92CB-CD17BD74C767</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>86111794-CBA8-4C11-BD58-013862A38090</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9E32D9EE-C028-4B2E-B144-7D969AE149C6</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -35,50 +48,53 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>C1496F78-7F5F-4791-96A2-3E19CF9046E4</string>
+				<string>3C84A544-6035-4E95-A2E7-0C9552BF9966</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8F2443C8-10EB-4363-8F5B-C00C66EE7601</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B5EACE37-ECAD-4BE7-8BB0-00691FE790EE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>43FB7215-3D11-4FFC-9626-D034A7F9B572</string>
 				<key>modifiers</key>
 				<integer>131072</integer>
 				<key>modifiersubtext</key>
-				<string>复制服务器地址</string>
+				<string>Delete</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>635B26D3-2C4C-4484-9872-F58657C7D226</string>
+				<string>86111794-CBA8-4C11-BD58-013862A38090</string>
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>复制数据库密码</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>85995E55-BD7F-4658-8476-417E1DCC108C</string>
-				<key>modifiers</key>
-				<integer>262144</integer>
-				<key>modifiersubtext</key>
-				<string>复制数据库用户名</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>04D09EC2-0B3C-4F24-9DA9-E7DA38788DC1</string>
-				<key>modifiers</key>
-				<integer>524288</integer>
-				<key>modifiersubtext</key>
-				<string>复制Host备注信息</string>
+				<string>Copy</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
 		</array>
-		<key>635B26D3-2C4C-4484-9872-F58657C7D226</key>
+		<key>9E32D9EE-C028-4B2E-B144-7D969AE149C6</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>31CAACEE-FAF4-4476-A6B4-3369781A84B0</string>
+				<string>F73BBBCF-8213-4661-8C0B-C242F001AD62</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -87,11 +103,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>7002728D-3FFF-4432-80EA-5A724554C02B</key>
+		<key>B5EACE37-ECAD-4BE7-8BB0-00691FE790EE</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>7E07FD3B-CAC9-46C9-961F-EB9905FDC4CE</string>
+				<string>A112941A-F34A-4F24-9316-E78DBA5BDFEF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -100,56 +116,17 @@
 				<false/>
 			</dict>
 		</array>
-		<key>828C6AE0-C362-4B38-BD5F-C987B29A8884</key>
+		<key>F73BBBCF-8213-4661-8C0B-C242F001AD62</key>
 		<array/>
-		<key>85995E55-BD7F-4658-8476-417E1DCC108C</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>31CAACEE-FAF4-4476-A6B4-3369781A84B0</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>90C337A0-CB97-464C-B1B7-E267751512D8</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>828C6AE0-C362-4B38-BD5F-C987B29A8884</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>C1496F78-7F5F-4791-96A2-3E19CF9046E4</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>7002728D-3FFF-4432-80EA-5A724554C02B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 	</dict>
 	<key>createdby</key>
 	<string>codezm</string>
 	<key>description</key>
-	<string>解析 ~/.ssh/config 配置文件</string>
+	<string>Auto login tools by ssh, it will be open in iterm with the new tab.</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>SSH v2.0.0</string>
+	<string>ssh</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -158,12 +135,12 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string></string>
+				<string>{query}</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.terminalcommand</string>
 			<key>uid</key>
-			<string>828C6AE0-C362-4B38-BD5F-C987B29A8884</string>
+			<string>A112941A-F34A-4F24-9316-E78DBA5BDFEF</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -173,11 +150,9 @@
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>102</integer>
+				<integer>32</integer>
 				<key>script</key>
-				<string>query="{query}"
-echo $query | cut -d "," -f6 | pbcopy
-echo $query | sed 's/#%/ /g' | cut -d "," -f5</string>
+				<string>/usr/bin/php manage.php "{query}" "insert"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -188,7 +163,7 @@ echo $query | sed 's/#%/ /g' | cut -d "," -f5</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>90C337A0-CB97-464C-B1B7-E267751512D8</string>
+			<string>B5EACE37-ECAD-4BE7-8BB0-00691FE790EE</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -198,9 +173,9 @@ echo $query | sed 's/#%/ /g' | cut -d "," -f5</string>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>argumenttype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>escaping</key>
-				<integer>102</integer>
+				<integer>126</integer>
 				<key>keyword</key>
 				<string>ssh</string>
 				<key>queuedelaycustom</key>
@@ -212,17 +187,17 @@ echo $query | sed 's/#%/ /g' | cut -d "," -f5</string>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>解析中...</string>
+				<string>Loading...</string>
 				<key>script</key>
-				<string>/usr/bin/php ssh.php $1</string>
+				<string>/usr/bin/php manage.php "{query}"</string>
 				<key>scriptargtype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>解析 ~/.ssh/config 配置文件</string>
+				<string>Auto login tools by ssh, it will be open in iterm with the new tab.</string>
 				<key>title</key>
-				<string>SSH工具</string>
+				<string>ssh</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -231,7 +206,7 @@ echo $query | sed 's/#%/ /g' | cut -d "," -f5</string>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>0EA74EBE-AD4A-4317-A44E-E094EE7DD3AA</string>
+			<string>8F2443C8-10EB-4363-8F5B-C00C66EE7601</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -241,11 +216,11 @@ echo $query | sed 's/#%/ /g' | cut -d "," -f5</string>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>0</integer>
+				<integer>32</integer>
 				<key>script</key>
-				<string>/usr/bin/php ssh_db.php $1 0</string>
+				<string>/usr/bin/php manage.php "{query}" "delete"</string>
 				<key>scriptargtype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -254,24 +229,64 @@ echo $query | sed 's/#%/ /g' | cut -d "," -f5</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>C1496F78-7F5F-4791-96A2-3E19CF9046E4</string>
+			<string>43FB7215-3D11-4FFC-9626-D034A7F9B572</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>paths</key>
-				<array>
-					<string>/Applications/Navicat Premium.app</string>
-				</array>
-				<key>toggle</key>
+				<key>lastpathcomponent</key>
 				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>{var:message} Notice!</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
+			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>7E07FD3B-CAC9-46C9-961F-EB9905FDC4CE</string>
+			<string>F73BBBCF-8213-4661-8C0B-C242F001AD62</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>variables</key>
+				<dict>
+					<key>message</key>
+					<string>Delete Successful</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>339199DD-38CC-4316-92CB-CD17BD74C767</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>variables</key>
+				<dict>
+					<key>message</key>
+					<string>Copy Successful</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>9E32D9EE-C028-4B2E-B144-7D969AE149C6</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -279,7 +294,7 @@ echo $query | sed 's/#%/ /g' | cut -d "," -f5</string>
 			<key>config</key>
 			<dict>
 				<key>autopaste</key>
-				<false/>
+				<true/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
 				<key>transient</key>
@@ -288,7 +303,7 @@ echo $query | sed 's/#%/ /g' | cut -d "," -f5</string>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>7002728D-3FFF-4432-80EA-5A724554C02B</string>
+			<string>3C84A544-6035-4E95-A2E7-0C9552BF9966</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -298,11 +313,11 @@ echo $query | sed 's/#%/ /g' | cut -d "," -f5</string>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>102</integer>
+				<integer>32</integer>
 				<key>script</key>
-				<string>/usr/bin/php ssh_db.php $1 1</string>
+				<string>/usr/bin/php manage.php "{query}" "copy"</string>
 				<key>scriptargtype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -311,173 +326,149 @@ echo $query | sed 's/#%/ /g' | cut -d "," -f5</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>635B26D3-2C4C-4484-9872-F58657C7D226</string>
+			<string>86111794-CBA8-4C11-BD58-013862A38090</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
+				<key>action</key>
+				<integer>1</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>argumenttext</key>
+				<string>ssh </string>
+				<key>focusedappvariable</key>
 				<true/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
+				<key>focusedappvariablename</key>
+				<string>codezm</string>
+				<key>hotkey</key>
+				<integer>-1</integer>
+				<key>hotmod</key>
+				<integer>262144</integer>
+				<key>hotstring</key>
+				<string>double tap</string>
+				<key>leftcursor</key>
 				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>31CAACEE-FAF4-4476-A6B4-3369781A84B0</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>/usr/bin/php ssh_db.php $1 2</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>85995E55-BD7F-4658-8476-417E1DCC108C</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>/usr/bin/php ssh_db.php $1 3</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>04D09EC2-0B3C-4F24-9DA9-E7DA38788DC1</string>
+			<string>4495C04A-B9EB-4C78-9846-1D015A9A84D3</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>本插件仅对 ~/.ssh/config 文件进行解析处理。
+	<string>通`SSH`自动登录 Workflow v3.0.0
 
-请确保格式按照以下配置方式进行编写:
-```
-# This is virtual machine configuration.
-Host docker-vm
-    HostName 192.168.99.100 
-  IdentityFile ~/.ssh/docker/id_rsa
-  Port 10022
-    User docker
-    #Password 1234
-    #DB dbusername:dbpassword
-```
+默认快捷键 ssh, 查看已添加服务器列表。
 
-若设置 #Password 选项，则键入 `Enter` 后其值将放入黏贴板并打开默认`Terminal`进行连接。</string>
+添加服务器记录格式: 
+    &lt;nickname&gt; &lt;host&gt; &lt;user&gt; &lt;password&gt; [&lt;root-password&gt;] | do
+    昵称 地址 登录用户名 登录密码 [root账户密码]
+
+功能
+
+1. 按`回车`打开终端并进入自动登录服务器
+2. 按`Shift+回车`删除服务器记录
+3. 按`Command+回车`复制服务器记录</string>
 	<key>uidata</key>
 	<dict>
-		<key>04D09EC2-0B3C-4F24-9DA9-E7DA38788DC1</key>
+		<key>339199DD-38CC-4316-92CB-CD17BD74C767</key>
 		<dict>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>620</integer>
 			<key>ypos</key>
-			<integer>660</integer>
+			<integer>280</integer>
 		</dict>
-		<key>0EA74EBE-AD4A-4317-A44E-E094EE7DD3AA</key>
+		<key>3C84A544-6035-4E95-A2E7-0C9552BF9966</key>
 		<dict>
 			<key>xpos</key>
-			<integer>10</integer>
+			<integer>750</integer>
 			<key>ypos</key>
-			<integer>170</integer>
+			<integer>440</integer>
 		</dict>
-		<key>31CAACEE-FAF4-4476-A6B4-3369781A84B0</key>
+		<key>43FB7215-3D11-4FFC-9626-D034A7F9B572</key>
 		<dict>
+			<key>note</key>
+			<string>Delete connection info!</string>
 			<key>xpos</key>
-			<integer>850</integer>
+			<integer>420</integer>
+			<key>ypos</key>
+			<integer>250</integer>
+		</dict>
+		<key>4495C04A-B9EB-4C78-9846-1D015A9A84D3</key>
+		<dict>
+			<key>note</key>
+			<string>双击设置快捷方式</string>
+			<key>xpos</key>
+			<integer>40</integer>
 			<key>ypos</key>
 			<integer>450</integer>
 		</dict>
-		<key>635B26D3-2C4C-4484-9872-F58657C7D226</key>
+		<key>86111794-CBA8-4C11-BD58-013862A38090</key>
 		<dict>
+			<key>note</key>
+			<string>Copy connection info!</string>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>420</integer>
 			<key>ypos</key>
-			<integer>340</integer>
+			<integer>440</integer>
 		</dict>
-		<key>7002728D-3FFF-4432-80EA-5A724554C02B</key>
+		<key>8F2443C8-10EB-4363-8F5B-C00C66EE7601</key>
 		<dict>
+			<key>note</key>
+			<string>The Auto login script entrance!</string>
 			<key>xpos</key>
-			<integer>570</integer>
+			<integer>40</integer>
 			<key>ypos</key>
-			<integer>190</integer>
+			<integer>220</integer>
 		</dict>
-		<key>7E07FD3B-CAC9-46C9-961F-EB9905FDC4CE</key>
+		<key>9E32D9EE-C028-4B2E-B144-7D969AE149C6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>850</integer>
+			<integer>620</integer>
 			<key>ypos</key>
-			<integer>190</integer>
+			<integer>390</integer>
 		</dict>
-		<key>828C6AE0-C362-4B38-BD5F-C987B29A8884</key>
+		<key>A112941A-F34A-4F24-9316-E78DBA5BDFEF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>560</integer>
+			<integer>750</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>60</integer>
 		</dict>
-		<key>85995E55-BD7F-4658-8476-417E1DCC108C</key>
+		<key>B5EACE37-ECAD-4BE7-8BB0-00691FE790EE</key>
 		<dict>
+			<key>note</key>
+			<string>Auto login or insert connection info!</string>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>420</integer>
 			<key>ypos</key>
-			<integer>500</integer>
+			<integer>60</integer>
 		</dict>
-		<key>90C337A0-CB97-464C-B1B7-E267751512D8</key>
+		<key>F73BBBCF-8213-4661-8C0B-C242F001AD62</key>
 		<dict>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>750</integer>
 			<key>ypos</key>
-			<integer>20</integer>
-		</dict>
-		<key>C1496F78-7F5F-4791-96A2-3E19CF9046E4</key>
-		<dict>
-			<key>xpos</key>
-			<integer>380</integer>
-			<key>ypos</key>
-			<integer>190</integer>
+			<integer>250</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
 	<dict>
-		<key>ssh_db</key>
-		<string>#DB</string>
-		<key>ssh_password</key>
-		<string>#Password</string>
+		<key>separator</key>
+		<string> </string>
 	</dict>
 	<key>version</key>
-	<string>2.0.0</string>
+	<string>v3.0.0</string>
 	<key>webaddress</key>
-	<string>https://github.com/codezm/codezm.workflows.ssh</string>
+	<string>https://github.com/codezm/Alfred-codezm-workflows-ssh-auto-login</string>
 </dict>
 </plist>
