@@ -135,7 +135,7 @@ class Manage {
             'uid' => 'codezm', 
             'arg' => $query, 
             'title' => 'Auto login by ssh - Tips: You haven\'t added any thing.',
-            'subtitle' => 'Please add data by this format: <name> <host> <user> <pwd> [<root-pwd>] | do',
+            'subtitle' => 'Please add data by this format: server-name ip-addr uname pwd [root-pwd] | do',
             'valid' => false,
             'autocomplete' => '', 
         );
