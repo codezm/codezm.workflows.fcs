@@ -11,8 +11,11 @@ Alfred-codezm-workflows-ssh-auto-login
 ----
 默认快捷键 ssh, 查看已添加服务器列表。
 
-新增服务器记录格式: 
+新增服务器记录格式:
 > service-name ip-address username password [root-password] | do
+
+使用自定义SSH格式:
+> service-name 'ssh -i ~/.ssh/id_rsa root@127.0.0.1 -p 2288' | do
 
 功能
 ----
