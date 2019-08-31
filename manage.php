@@ -71,7 +71,7 @@ class Manage {
                         $fileData = array();
                     }
                     if (empty($fileData) || !in_array($query, $fileData)) {
-                        $fileData[] = $query; 
+                        $fileData[] = $query;
                         $this->writeFileData($this->storageFileName, $fileData);
                     }
                     break;
@@ -84,7 +84,13 @@ class Manage {
         // Remove service name.
         $query = explode($this->env_separator, $query);
         array_shift($query);
-        echo "/usr/bin/expect " . $this->path . "/login.expect " . implode($this->env_separator, $query);
+        if ($query[0] == '\'ssh') {
+            echo "/usr/bin/expect " . $this->path . "/login.expect " . implode($this->env_separator, $query);
+        } else {
+            $host = array_shift($query);
+            $user = array_shift($query);
+            echo "/usr/bin/expect " . $this->path . "/login.expect " . "'ssh $user@$host' " . implode($this->env_separator, $query);
+        }
         exit;
         /*}}}*/
     }
